@@ -1,0 +1,29 @@
+<!-- Created by Erion Nezha — © 2026 All rights reserved -->
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Happy Diwali — Art me Turtle</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#050505;color:#ffd75c;font-family:Georgia,serif;min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:18px}
+h1{font-size:1.5rem;margin-bottom:4px;text-shadow:0 0 18px #ffd75c88}
+p.sub{color:#a8894a;font-size:.9rem;margin-bottom:12px;font-family:system-ui}
+#stage{width:min(96vw,960px);border:1px solid #ffd75c44;border-radius:12px;overflow:hidden;box-shadow:0 0 40px #ffd75c22}
+canvas{display:block;width:100%;height:auto;background:#050505}
+#replay{margin-top:14px;background:#ffd75c22;border:1px solid #ffd75c88;color:#ffd75c;padding:10px 26px;border-radius:8px;cursor:pointer;font-size:1rem}
+#replay:hover{background:#ffd75c44}
+.note{color:#8a6a3a;font-size:.8rem;margin-top:10px;font-family:system-ui;text-align:center;max-width:640px}
+</style>
+</head>
+<body>
+<h1>🪔 Happy Diwali — Art me Turtle</h1>
+<p class="sub">Simulim në browser i programit origjinal Python me turtle: rangoli, fishekzjarrë e drita</p>
+<div id="stage"><canvas id="art" width="960" height="680"></canvas></div>
+<button id="replay">🔁 Rinis animimin</button>
+<p class="note">Origjinali vizaton me turtle: dizajn rangoli me rrathë, fishekzjarrë (rocket cracker) dhe shkronjat HAPPY DIWALI — këtu rikrijohet si animim canvas me fishekzjarrë, rangoli rrotulluese e llamba diya.</p>
+<script src="art.js"></script>
+<div class="erion-credit" style="position:fixed;bottom:10px;right:12px;z-index:9999;background:rgba(0,0,0,.55);color:#fff;font:12px system-ui,sans-serif;padding:6px 12px;border-radius:20px;pointer-events:none;">Krijuar nga Erion Nezha</div>
+</body>
+</html>
